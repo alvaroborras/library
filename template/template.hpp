@@ -2,9 +2,9 @@
 
 using namespace std;
 
-using i64 = long long;
+using ll = long long;
 
-const i64 infll = (1LL << 62) - 1;
+const ll infll = (1LL << 62) - 1;
 const int inf = (1 << 30) - 1;
 
 struct IoSetup {
@@ -52,7 +52,7 @@ inline bool chmin(T1 &a, T2 b) {
   return a > b && (a = b, true);
 }
 
-template <typename T = i64> vector<T> make_v(size_t a) { return vector<T>(a); }
+template <typename T = ll> vector<T> make_v(size_t a) { return vector<T>(a); }
 
 template <typename T, typename... Ts>
 auto make_v(size_t a, Ts... ts) {
