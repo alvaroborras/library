@@ -1,4 +1,3 @@
-// competitive-verifier: PROBLEM https://onlinejudge.u-aizu.ac.jp/problems/GRL_3_A
 
 #include "../../template/template.hpp"
 
