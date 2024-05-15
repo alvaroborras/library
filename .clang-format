@@ -1,0 +1,37 @@
+---
+Language: Cpp
+# This will use the LLVM style as a base; other common base styles include Google, Chromium, Mozilla, and WebKit.
+BasedOnStyle: LLVM
+
+# The column limit for each line.
+ColumnLimit: 120
+
+# IndentWidth: Specifies the number of columns to use for indentation.
+IndentWidth: 4
+
+# TabWidth: Specifies the width of the tab characters.
+TabWidth: 4
+
+# UseTab: Never, ForIndentation, or Always. Use 'Never' for spaces only.
+UseTab: Never
+
+# BreakBeforeBraces: Defines when to break before braces.
+BreakBeforeBraces: Attach
+
+# AllowShortIfStatementsOnASingleLine: Never, WithoutElse, OnlyFirstIf, and AllIfsAndElse.
+AllowShortIfStatementsOnASingleLine: WithoutElse
+
+# IncludeBlocks: Preserve, Merge, or Regroup include blocks.
+IncludeBlocks: Regroup
+
+# NamespaceIndentation: None, Inner, or All.
+NamespaceIndentation: All
+
+# PointerAlignment: Left, Right, or Middle
+PointerAlignment: Left
+
+# AlignAfterOpenBracket: Align, DontAlign, or AlwaysBreak.
+AlignAfterOpenBracket: Align
+
+# MaxEmptyLinesToKeep: Specifies the maximum number of consecutive empty lines to keep.
+MaxEmptyLinesToKeep: 1
